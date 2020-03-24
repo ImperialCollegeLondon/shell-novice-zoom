@@ -14,6 +14,11 @@ Use of the shell is fundamental to using a wide range of other powerful tools
 and computing resources (including "high-performance computing" supercomputers).
 These lessons will start you on a path towards using these resources effectively.
 
+This lesson is a reformat of the standard Unix Shell lesson designed to
+facilitate remote delivery via Zoom. All episodes, except the first and last,
+start with a pre-recorded video of the material. Some episodes have been split
+into more than one part to give a chance to work on exercises.
+
 > ## Prerequisites
 >
 > This lesson guides you through the basics of file systems and the
