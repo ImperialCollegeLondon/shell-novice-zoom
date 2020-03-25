@@ -22,6 +22,11 @@ keypoints:
 - "Use `history` to display recent commands, and `!number` to repeat a command by number."
 ---
 
+> ## Video
+>
+> [https://youtu.be/QbQ5QROoNYA](https://youtu.be/QbQ5QROoNYA)
+{: .callout}
+
 **Loops** are a programming construct which allow us to repeat a command or set of commands
 for each item in a list.
 As such they are key to productivity improvements through automation.

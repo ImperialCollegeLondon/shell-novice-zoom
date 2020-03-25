@@ -22,6 +22,11 @@ keypoints:
 - "The best way to use the shell is to use pipes to combine simple single-purpose programs (filters)."
 ---
 
+> ## Video
+>
+> [https://youtu.be/IDQLnbvMBhs](https://youtu.be/IDQLnbvMBhs)
+{: .callout}
+
 Now that we know a few basic commands,
 we can finally look at the shell's most powerful feature:
 the ease with which it lets us combine existing programs in new ways.

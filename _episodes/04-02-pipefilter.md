@@ -23,6 +23,11 @@ keypoints:
 ---
 
 
+> ## Video
+>
+> [https://youtu.be/hn91KQINYNM](https://youtu.be/hn91KQINYNM)
+{: .callout}
+
 If you think this is confusing,
 you're in good company:
 even once you understand what `wc`, `sort`, and `head` do,

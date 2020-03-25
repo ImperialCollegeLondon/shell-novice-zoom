@@ -21,6 +21,13 @@ keypoints:
 - "Most files' names are `something.extension`. The extension isn't required, and doesn't guarantee anything, but is normally used to indicate the type of data in the file."
 - "Depending on the type of work you do, you may need a more powerful text editor than Nano."
 ---
+
+> ## Video
+>
+> [https://youtu.be/ZMSUWmMhyZQ](https://youtu.be/ZMSUWmMhyZQ)
+{: .callout}
+
+
 ## Creating directories
 We now know how to explore files and directories,
 but how do we create them in the first place?

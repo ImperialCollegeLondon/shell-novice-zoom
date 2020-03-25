@@ -22,6 +22,11 @@ keypoints:
 - "Depending on the type of work you do, you may need a more powerful text editor than Nano."
 ---
 
+> ## Video
+>
+> [https://youtu.be/WKNlb0HoEXs](https://youtu.be/WKNlb0HoEXs)
+{: .callout}
+
 ## Removing files and directories
 
 Returning to the `data-shell` directory,

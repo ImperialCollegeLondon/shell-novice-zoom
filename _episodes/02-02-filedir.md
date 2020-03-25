@@ -26,6 +26,11 @@ keypoints:
 - "`..` means 'the directory above the current one'; `.` on its own means 'the current directory'."
 ---
 
+> ## Video
+> 
+> [https://youtu.be/l8kuaNAU_90](https://youtu.be/l8kuaNAU_90)
+{: .callout}
+
 ### Exploring Other Directories
 
 Not only can we use `ls` on the current working directory, but we can use it to list the contents of a different directory.  Let's take a

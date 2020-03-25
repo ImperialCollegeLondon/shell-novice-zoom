@@ -18,6 +18,13 @@ keypoints:
 - "Letting users decide what files to process is more flexible and more consistent with built-in Unix commands."
 ---
 
+
+> ## Video
+>
+> [https://youtu.be/fcFlZYWJqts](https://youtu.be/fcFlZYWJqts)
+{: .callout}
+
+
 We are finally ready to see what makes the shell such a powerful programming environment.
 We are going to take the commands we repeat frequently and save them in files
 so that we can re-run all those operations again later by typing a single command.
