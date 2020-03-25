@@ -1,7 +1,7 @@
 ---
 title: "Shell Scripts"
-teaching: 30
-exercises: 15
+teaching: 15
+exercises: 5
 questions:
 - "How can I save and re-use commands?"
 objectives:
@@ -17,7 +17,6 @@ keypoints:
 - "Place variables in quotes if the values might have spaces in them."
 - "Letting users decide what files to process is more flexible and more consistent with built-in Unix commands."
 ---
-
 
 > ## Video
 >
