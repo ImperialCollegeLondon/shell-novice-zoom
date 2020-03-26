@@ -235,50 +235,6 @@ increase the odds that the program won't do what its readers think it does.
 > {: .solution}
 {: .challenge}
 
-> ## Limiting Sets of Files
->
-> What would be the output of running the following loop in the `data-shell/molecules` directory?
->
-> ~~~
-> $ for filename in c*
-> > do
-> >    ls $filename
-> > done
-> ~~~
-> {: .language-bash}
->
-> 1.  No files are listed.
-> 2.  All files are listed.
-> 3.  Only `cubane.pdb`, `octane.pdb` and `pentane.pdb` are listed.
-> 4.  Only `cubane.pdb` is listed.
->
-> > ## Solution
-> > 4 is the correct answer. `*` matches zero or more characters, so any file name starting with
-> > the letter c, followed by zero or more other characters will be matched.
-> {: .solution}
->
-> How would the output differ from using this command instead?
->
-> ~~~
-> $ for filename in *c*
-> > do
-> >    ls $filename
-> > done
-> ~~~
-> {: .language-bash}
->
-> 1.  The same files would be listed.
-> 2.  All the files are listed this time.
-> 3.  No files are listed this time.
-> 4.  The files `cubane.pdb` and `octane.pdb` will be listed.
-> 5.  Only the file `octane.pdb` will be listed.
->
-> > ## Solution
-> > 4 is the correct answer. `*` matches zero or more characters, so a file name with zero or more
-> > characters before a letter c and zero or more characters after the letter c will be matched.
-> {: .solution}
-{: .challenge}
-
 > ## Saving to a File in a Loop - Part One
 >
 > In the `data-shell/molecules` directory, what is the effect of this loop?

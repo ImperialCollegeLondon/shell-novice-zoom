@@ -92,26 +92,6 @@ The redirection and pipes used in the last few commands are illustrated below:
 
 ![Redirects and Pipes](../fig/redirects-and-pipes.png)
 
-> ## Piping Commands Together
->
-> In our current directory, we want to find the 3 files which have the least number of
-> lines. Which command listed below would work?
->
-> 1. `wc -l * > sort -n > head -n 3`
-> 2. `wc -l * | sort -n | head -n 1-3`
-> 3. `wc -l * | head -n 3 | sort -n`
-> 4. `wc -l * | sort -n | head -n 3`
->
-> > ## Solution
-> > Option 4 is the solution.
-> > The pipe character `|` is used to connect the output from one command to
-> > the input of another.
-> > `>` is used to redirect standard output to a file.
-> > Try it in the `data-shell/molecules` directory!
-> {: .solution}
-{: .challenge}
-
-
 This idea of linking programs together is why Unix has been so successful.
 Instead of creating enormous programs that try to do many different things,
 Unix programmers focus on creating lots of simple tools that each do one job well,

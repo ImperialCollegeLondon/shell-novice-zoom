@@ -420,31 +420,6 @@ quotations.txt
 ```
 {: .output}
 
-
-> ## Renaming Files
->
-> Suppose that you created a plain-text file in your current directory to contain a list of the
-> statistical tests you will need to do to analyze your data, and named it: `statstics.txt`
->
-> After creating and saving this file you realize you misspelled the filename! You want to
-> correct the mistake, which of the following commands could you use to do so?
->
-> 1. `cp statstics.txt statistics.txt`
-> 2. `mv statstics.txt statistics.txt`
-> 3. `mv statstics.txt .`
-> 4. `cp statstics.txt .`
->
-> > ## Solution
-> > 1. No.  While this would create a file with the correct name, the incorrectly named file still exists in the directory
-> > and would need to be deleted.
-> > 2. Yes, this would work to rename the file.
-> > 3. No, the period(.) indicates where to move the file, but does not provide a new file name; identical file names
-> > cannot be created.
-> > 4. No, the period(.) indicates where to copy the file, but does not provide a new file name; identical file names
-> > cannot be created.
-> {: .solution}
-{: .challenge}
-
 > ## Moving and Copying
 >
 > What is the output of the closing `ls` command in the sequence shown below?

@@ -447,48 +447,6 @@ she could modify her script to check for command-line arguments,
 and use `NENE*[AB].txt` if none were provided.
 Of course, this introduces another tradeoff between flexibility and complexity.
 
-> ## Variables in Shell Scripts
->
-> In the `molecules` directory, imagine you have a shell script called `script.sh` containing the
-> following commands:
->
-> ~~~
-> head -n $2 $1
-> tail -n $3 $1
-> ~~~
-> {: .language-bash}
->
-> While you are in the `molecules` directory, you type the following command:
->
-> ~~~
-> bash script.sh '*.pdb' 1 1
-> ~~~
-> {: .language-bash}
->
-> Which of the following outputs would you expect to see?
->
-> 1. All of the lines between the first and the last lines of each file ending in `.pdb`
->    in the `molecules` directory
-> 2. The first and the last line of each file ending in `.pdb` in the `molecules` directory
-> 3. The first and the last line of each file in the `molecules` directory
-> 4. An error because of the quotes around `*.pdb`
->
-> > ## Solution
-> > The correct answer is 2.
-> >
-> > The special variables $1, $2 and $3 represent the command line arguments given to the
-> > script, such that the commands run are:
-> >
-> > ```
-> > $ head -n 1 cubane.pdb ethane.pdb octane.pdb pentane.pdb propane.pdb
-> > $ tail -n 1 cubane.pdb ethane.pdb octane.pdb pentane.pdb propane.pdb
-> > ```
-> > {: .language-bash}
-> > The shell does not expand `'*.pdb'` because it is enclosed by quote marks.
-> > As such, the first argument to the script is `'*.pdb'` which gets expanded within the
-> > script by `head` and `tail`.
-> {: .solution}
-{: .challenge}
 
 > ## Find the Longest File With a Given Extension
 >
